@@ -63,3 +63,16 @@ let welcomeMessage = "Hello " + customerName + ", thank you for shopping with us
 
 // Step 3: Log the welcome message to the console
 console.log(welcomeMessage);
+
+// Task 5: Boolean Data Type
+// Scenario: Access Control
+
+// Step 1: Declare a variable isLoggedIn using let and assign it a boolean value
+let isLoggedIn = true;
+
+// Step 2: Use logical operations to check access conditions
+let hasAccess = isLoggedIn && true; // Example condition
+
+// Step 3: Log results to the console
+console.log("Is Logged In:", isLoggedIn);
+console.log("Has Access:", hasAccess);
