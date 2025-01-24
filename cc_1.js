@@ -51,3 +51,15 @@ console.log("After applying interest:", accountBalance);
 
 accountBalance /= 2; // Split balance
 console.log("After splitting balance:", accountBalance);
+
+// Task 4: String Data Type
+// Scenario: Customer Messaging
+
+// Step 1: Declare a variable customerName using let and assign it a string value
+let customerName = "Dwight Schrute";
+
+// Step 2: Concatenate strings to form a welcome message
+let welcomeMessage = "Hello " + customerName + ", thank you for shopping with us!";
+
+// Step 3: Log the welcome message to the console
+console.log(welcomeMessage);
