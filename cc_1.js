@@ -31,3 +31,23 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
+
+// Task 3: Number Data Type
+// Scenario: Financial Transactions
+
+// Step 1: Declare a variable accountBalance using let and assign it a number representing the initial balance
+let accountBalance = 2000;
+
+// Step 2: Perform basic arithmetic operations and log the updated values
+accountBalance += 700; // Deposit
+console.log("After deposit:", accountBalance);
+
+accountBalance -= 200; // Withdrawal
+console.log("After withdrawal:", accountBalance);
+
+accountBalance *= 1.05; // Interest
+console.log("After applying interest:", accountBalance);
+
+accountBalance /= 2; // Split balance
+console.log("After splitting balance:", accountBalance);
